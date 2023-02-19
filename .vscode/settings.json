@@ -1,0 +1,11 @@
+{
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "[plaintext]": {
+    "editor.quickSuggestions": {
+      "other": false,
+      "comments": false,
+      "strings": false
+    }
+  },
+  "explorer.sortOrder": "type"
+}
