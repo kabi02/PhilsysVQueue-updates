@@ -85,7 +85,7 @@ public class UserDashboardController implements Initializable {
 
     @FXML
     void backToUserLogin(ActionEvent event) throws Exception {
-        int confirm = JOptionPane.showConfirmDialog(null, "Do you really want to logout?");
+        int confirm = JOptionPane.showConfirmDialog(null, "Do you really want to logout?", "Confirm Logout", JOptionPane.YES_NO_OPTION);
         if (confirm == 0) {
             User.setRoot("userlogin", "User Login");
             User.centerRoot();
